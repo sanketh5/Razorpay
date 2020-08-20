@@ -5,6 +5,7 @@ details = {
     "name" : "Nofrdz",
     "email" :"sankethdesuwar5@gmail.com",
     "contact_no" : "7588425170",
+     #receiptno should be unique for every transaction
     "receiptno":"456655222"
 }
 
@@ -16,7 +17,7 @@ def generate_url(details):
     name = details["name"]
     email=details["email"]
     contact_no = details["contact_no"]
-    #it should be unique for every transaction
+    #receiptno should be unique for every transaction
     receiptno=details["receiptno"]
     
     #amount in paise
