@@ -19,7 +19,7 @@ def generate_url(details):
     #it should be unique for every transaction
     receiptno=details["receiptno"]
     
-    #asmount in paise
+    #amount in paise
     amount="10000"
     
     #description
